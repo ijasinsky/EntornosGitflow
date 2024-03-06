@@ -16,6 +16,6 @@ class AppTest {
 
     @Test void appSumarCorrecta() {
         App classUnderTest = new App();
-        assertEquals(6, classUnderTest.sumar(3, 2));
+        assertEquals(7, classUnderTest.sumar(3, 2));
     }
 }
