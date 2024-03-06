@@ -6,7 +6,6 @@ package gradle;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-import org.checkerframework.checker.interning.qual.EqualsMethod;
 
 class AppTest {
     @Test void appHasAGreeting() {

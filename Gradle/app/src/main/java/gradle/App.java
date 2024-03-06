@@ -14,7 +14,7 @@ public class App {
 
     public int sumar(int n1, int n2){
         int sumar = n1 + n2;
-        return sumar(n1, n2);
+        return sumar;
     }
 
     
