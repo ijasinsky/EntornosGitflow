@@ -12,5 +12,9 @@ public class App {
         System.out.println(new App().getGreeting());
     }
 
+    public void sumar(n1, n2){
+        int sumar = n1 + n2;
+    }
+
     
 }

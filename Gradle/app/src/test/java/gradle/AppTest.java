@@ -6,9 +6,16 @@ package gradle;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.checkerframework.checker.interning.qual.EqualsMethod;
+
 class AppTest {
     @Test void appHasAGreeting() {
         App classUnderTest = new App();
         assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
+    }
+
+    @Test void appSumarCorrecta() {
+        App classUnderTest = new App();
+        assertEquals(6, classUnderTest.sumar(3, 2));
     }
 }
